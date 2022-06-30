@@ -1,0 +1,64 @@
+.container {
+   margin-top: 200px;
+   text-align: center;
+}
+
+.container .jumbotron {
+   background: red;
+   color: white;
+}
+
+.jumbotron a {
+   background: yellow;
+   color: red;
+   border: 2px solid green;
+}
+
+body {
+   background: url("https://images.unsplash.com/photo-1581299041421-dbc4281d97b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+html {
+   height: 100%;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   background: red;
+}
+
+img {
+   height: 200px;
+   width: 30%;
+   margin: 1.5%;
+   float: left;
+   border: 2px solid red;
+}
+#specialp{
+   color: yellow;
+   text-align: center;
+   font-size: 50px;
+}
+table{
+   color: yellow;
+   background: red;
+   margin: auto;
+   font-size: 20px;
+ }
+ tr,thead{
+   border:2px solid white;
+ }
+ thead,th{
+   color:white;
+   border: 2px solid white;
+   font-size: 25px;
+   margin:auto;
+   background: blue;
+ }
+ tr:nth-of-type(even){
+   background: #1ec75c;
+   color:blue;
+ }
